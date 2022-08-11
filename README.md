@@ -1,2 +1,19 @@
 # midiAuralizer
- This Tool has been developed for the Projects DISKOS (BMBF) and MODAVIS (PhD) to execute quick auralizations \nwith traceable parameters and identifiers for virtual instruments and the corresponding MIDI- & Audio-Files.
+ This GUI has been developed for the Projects [DISKOS (BMBF)](https://organology.uni-leipzig.de/) (BMBF) and [MODAVIS (PhD)](https://modavis.org/) to easily synthesize MIDI-Files through VST-Instruments to Audiofiles.
+ All parameters that have been set in the Instrument can be traced in a Protocol (JSON), including Hashcodes for every Audio- and MIDI-File to identify them for further processing.
+ Note: VST-Instruments only work on Windows, Support for Mac OS & Linux will be added soon (including Audio Units and SoundFonts)!
+
+ ![Screenshot of midiAuralizer Main Window](images/midiAuralizer_screenshot0.png)
+
+### Features
+ - Easy to Use: Simple GUI, no programming or digital audio knowledge needed
+ - Drag & Drop your MIDI-Files, choose your Instrument and click on Auralize !
+ - Automatic Protocol: Instrument Parameters, Identifier & Hashcodes
+ - Hashcode Checker: View Auralization Parameters for every generated Audiofile
+
+### Upcoming Changes
+ - Optimize State-Handling Operations
+ - View & Export filtered Protocol
+ - Progressbar for Batch Processing
+ - Commandline-Version
+ - Extend Support to Mac OS (Audio Units: .au) and SoundFonts (.sfz, .sf2)

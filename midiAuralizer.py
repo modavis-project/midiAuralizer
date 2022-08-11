@@ -3,10 +3,14 @@
 Created on Thu Aug  11 13:25:43 2022
 
 @author: Dominik Ukolov
-@email: dominik.ukolov@uni-leipzig.de
+@author_email: dominik.ukolov@uni-leipzig.de
 @site: https://modavis.org/
 @description: This Tool has been developed for the Projects DISKOS (BMBF) and MODAVIS (PhD) to execute quick auralizations with traceable parameters and identifiers for virtual instruments and the corresponding MIDI- & Audio-Files.
+@version: 0.0.1
+@license: GNU GPLv3
+@keywords: midi, vst, audio, auralize, synthesize, render, gui, pyqt
 """
+version = "0.0.1"
 
 from PyQt5.QtWidgets import (QLabel, QComboBox, QLineEdit, QPushButton, QFrame, QMainWindow, 
                              QDialog, QApplication, QWidget, QMenuBar, QMenu, QAction, QStatusBar, 
@@ -822,15 +826,18 @@ class About(QDialog): # window with information about the project
         
         self.txt_about = QLabel(self)
         self.txt_links = QLabel(self)
+        self.txt_version = QLabel(self)
         self.txt_licenses = QLabel(self)
         self.txt_about.setText("This Tool has been developed for the Projects DISKOS (BMBF) and MODAVIS (PhD) to execute quick auralizations \nwith traceable parameters and identifiers for virtual instruments and the corresponding MIDI- & Audio-Files.\n")
         self.txt_links.setText("More Information: <a href=\"https://github.com/modavis-project/\">https://github.com/modavis-project/</a>")
         self.txt_links.setOpenExternalLinks(True)
+        self.txt_version.setText(f"Version: {version}")
         self.txt_licenses.setText("License: <a href=\"https://www.gnu.org/licenses/gpl-3.0.en.html\">GPLv3</a>\nCopyright \u00a9 2022 by Dominik Ukolov")
         self.txt_licenses.setOpenExternalLinks(True)
         
         self.layout.addRow(self.txt_about)
         self.layout.addRow(self.txt_links)
+        self.layout.addRow(self.txt_version)
         self.layout.addRow(self.txt_licenses)
         self.layout.addRow(self.buttonBox)
 
