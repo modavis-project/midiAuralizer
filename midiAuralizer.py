@@ -39,7 +39,27 @@ userpath = os.environ['USERPROFILE']
 SETTINGS_PATH = f"{cwd}\\db\\settings.json"
 PROTOCOL_PATH = f"{cwd}\\db\\protocol.json"
 
+json_settings = json.load(open(SETTINGS_PATH, encoding='UTF-8'))
+json_protocol = json.load(open(PROTOCOL_PATH, encoding='UTF-8'))
+
+VST_PATH = json_settings['pathSettings']['vstpath']
+OUT_PATH = json_settings['pathSettings']['outpath']
+STATES_PATH = json_settings['pathSettings']['statespath']
+
+def jsonDump(json_target): # dumps data into target .json-File
+    if json_target == "settings": 
+        with open(SETTINGS_PATH, "w") as json_file:
+            json.dump(json_settings, json_file, indent=4)
+        json_file.close()
+    elif json_target == "protocol":
+        with open(PROTOCOL_PATH, "w") as json_file:
+            json.dump(json_protocol, json_file, indent=4)
+        json_file.close()
+    else:
+        print("JSON-Target not found.")
+
 def initResources(): # creates predefined .json-Files and folder structure if unavailable
+    global OUT_PATH, STATES_PATH
     settings = {"audioSettings": {"samplerate": 44100, "bitdepth": 16, "chunksize": 1024, "loadstate": True},
      "pathSettings": {"vstpath": "C:\\VstPlugins\\", "outpath": f"{cwd}\\output\\", "statespath": f"{cwd}\\states\\"},
      "pluginSettings": {}}
@@ -55,15 +75,14 @@ def initResources(): # creates predefined .json-Files and folder structure if un
         with open(PROTOCOL_PATH, "w") as protocol_file:
             json.dump(protocol, protocol_file, indent=4)
         protocol_file.close()
+    if not OUT_PATH:
+        OUT_PATH = f"{cwd}\\output\\"
+    if not STATES_PATH:
+        STATES_PATH = f"{cwd}\\states\\"
 
 initResources()
 
-json_settings = json.load(open(SETTINGS_PATH, encoding='UTF-8'))
-json_protocol = json.load(open(PROTOCOL_PATH, encoding='UTF-8'))
 
-VST_PATH = json_settings['pathSettings']['vstpath']
-OUT_PATH = json_settings['pathSettings']['outpath']
-STATES_PATH = json_settings['pathSettings']['statespath']
 BACKGROUND_MAIN = f"{cwd_css}/images/bgImage.png"
 ICON_PATH = f"{cwd}\\images\\icon.png"
 RESOURCES = [f"{cwd}\\images\\bgImage.png", f"{cwd}\\images\\MIDI_Drag.png", f"{cwd}\\images\\Audio_Drag.png", f"{cwd}\\images\\DropDownArrow.png",
@@ -78,18 +97,6 @@ LOAD_STATE = bool(json_settings['audioSettings']['loadstate'])
 instrument = None
 parameters = ""
 dict_parameters = {}
-
-def jsonDump(json_target): # dumps data into target json file
-    if json_target == "settings": 
-        with open(SETTINGS_PATH, "w") as json_file:
-            json.dump(json_settings, json_file, indent=4)
-        json_file.close()
-    elif json_target == "protocol":
-        with open(PROTOCOL_PATH, "w") as json_file:
-            json.dump(json_protocol, json_file, indent=4)
-        json_file.close()
-    else:
-        print("JSON-Target not found.")
         
 def getHashes(audiofile, midifile): # returns hashcodes for the corresponding audio- and midifiles
     path_audio = audiofile

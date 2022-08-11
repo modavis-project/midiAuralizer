@@ -7,32 +7,9 @@
     },
     "pathSettings": {
         "vstpath": "C:\\VstPlugins\\",
-        "outpath": "C:\\Users\\Dominik\\OneDrive\\2022\\Scripts\\midi_to_mp3\\output\\",
-        "statespath": "C:\\Users\\Dominik\\OneDrive\\2022\\Scripts\\midi_to_mp3\\states\\"
+        "outpath": "",
+        "statespath": ""
     },
     "pluginSettings": {
-        "Ariston_V": {
-            "Enable/Disable Full Range": 0.0
-        },
-        "VirtualSilbermann": {
-            "Gedackt 8": 1.0,
-            "Octav 2": 0.0,
-            "Prinzipal 4": 1.0,
-            "Quinte 1 1 3": 0.0,
-            "Zimbel": 0.0,
-            "Volume": 0.5,
-            "Tutti": 0.0
-        },
-        "HISE_Pertici x64": {
-            "8' und 4' Register (gekoppelt)": 1.0,
-            "8' Register": 0.0,
-            "4' Register": 0.0,
-            "4' Register - Manual 1": 0.0,
-            "4' Register - Manual 2": 0.0,
-            "Lautenzug": 0.0,
-            "Anschlagsdynamik": 1.0,
-            "Stimmung": 1.0,
-            "Volume": 0.5
-        }
     }
 }
