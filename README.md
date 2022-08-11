@@ -17,8 +17,8 @@
  7. (optional) Open the Instrument Window and change your Instrument Parameters.
  8. Click on Auralize MIDI - a Messagebox will confirm the successful Auralization and you can find the generated Audiofiles the Output-Folder that you've set before!
  9. If you want to check the used Instrument & Parameters of a generated Audiofile:
-    Open Tools -> Check Hashes
-    Drag & Drop your Audiofile into the Check Hashes - Window
+  - Open Tools -> Check Hashes
+  - Drag & Drop your Audiofile into the Check Hashes - Window
  - If you encounter any Bugs, feel free to contact me!
 
 ### Features
