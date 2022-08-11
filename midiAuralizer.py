@@ -5,7 +5,7 @@ Created on Thu Aug  11 13:25:43 2022
 @author: Dominik Ukolov
 @email: dominik.ukolov@uni-leipzig.de
 @site: https://modavis.org/
-@description: This Tool has been developed for the Projects DISKOS (BMBF) and MODAVIS (PhD) to execute quick auralizations \nwith traceable parameters and identifiers for virtual instruments and the corresponding MIDI- & Audio-Files.
+@description: This Tool has been developed for the Projects DISKOS (BMBF) and MODAVIS (PhD) to execute quick auralizations with traceable parameters and identifiers for virtual instruments and the corresponding MIDI- & Audio-Files.
 """
 
 from PyQt5.QtWidgets import (QLabel, QComboBox, QLineEdit, QPushButton, QFrame, QMainWindow, 
