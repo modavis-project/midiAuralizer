@@ -1,7 +1,7 @@
 # midiAuralizer
- This GUI has been developed for the Projects [DISKOS (BMBF)](https://organology.uni-leipzig.de/) (BMBF) and [MODAVIS (PhD)](https://modavis.org/) to easily synthesize MIDI-Files through VST-Instruments.
- All parameters that have been set in the Instrument can be traced in a Protocol (JSON), including Hashcodes for every Audio- and MIDI-File to identify them for further processing. <br />
- Note: VST-Instruments only work on Windows, Support for Mac OS & Linux will be added soon (including Audio Units and SoundFonts)!
+ This GUI has been developed for the Projects [DISKOS (BMBF)](https://organology.uni-leipzig.de/) and [MODAVIS (PhD)](https://modavis.org/) to easily synthesize MIDI-Files through VST-Instruments.
+ All parameters that have been set in the Instrument can be traced in a Protocol (JSON), including Hashcodes for every Audio- and MIDI-File to identify them for further processing. <br /> <br />
+ <sub>Note: VST-Instruments only work on Windows, Support for Mac OS & Linux will be added soon (including Audio Units and SoundFonts)!</sub>
 
 <p align="center">
   <img src="https://github.com/modavis-project/midiAuralizer/blob/main/images/midiAuralizer_screenshot0.PNG" alt="Screenshot of midiAuralizer's Main Window"/>
