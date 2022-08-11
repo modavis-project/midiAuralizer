@@ -4,7 +4,7 @@ Created on Thu Aug  11 13:25:43 2022
 
 @author: Dominik Ukolov
 @author_email: dominik.ukolov@uni-leipzig.de
-@site: https://modavis.org/
+@site: https://github.com/modavis-project/midiAuralizer
 @description: This Tool has been developed for the Projects DISKOS (BMBF) and MODAVIS (PhD) to execute quick auralizations with traceable parameters and identifiers for virtual instruments and the corresponding MIDI- & Audio-Files.
 @version: 0.0.1
 @license: GNU GPLv3

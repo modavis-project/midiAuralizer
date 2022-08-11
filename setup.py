@@ -7,6 +7,6 @@ setup(name='midiAuralizer',
       description='GUI to synthesize MIDI-Files through VST-Instruments',
       author='Dominik Ukolov',
       author_email='dominik.ukolov@uni-leipzig.de',
-      url='https://modavis.org/',
+      url='https://github.com/modavis-project/midiAuralizer',
       packages=['midiAuralize'],
      )
