@@ -1,0 +1,15 @@
+altgraph==0.17.2
+dawdreamer==0.6.10
+future==0.18.2
+mido==1.2.10
+numpy==1.22.4
+pefile==2022.5.30
+pyinstaller==5.3
+pyinstaller-hooks-contrib==2022.8
+PyQt5==5.15.7
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.11.0
+pywin32==302
+pywin32-ctypes==0.2.0
+scipy==1.7.3
+wincertstore==0.2

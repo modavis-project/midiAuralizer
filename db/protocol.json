@@ -1,0 +1,468 @@
+{
+    "9cfefe8c779c2aad25e6142f4ba48c96": {
+        "filename": "5070095.wav",
+        "created": "2022-08-11 11:14:08.950480",
+        "samplerate": "44100",
+        "bitdepth": "16",
+        "midi": {
+            "filename": "5070095.mid",
+            "tempo": 230,
+            "hash": "9cfefe8c779c2aad25e6142f4ba48c96"
+        },
+        "tempo": "230",
+        "plugin": {
+            "name": "Ariston_V",
+            "version": "1.0.0.0",
+            "parameters": {
+                "Enable/Disable Full Range": 0.0
+            }
+        }
+    },
+    "146dc881655a7c5698d60a918ad36207": {
+        "filename": "5070097.wav",
+        "created": "2022-08-11 11:19:00.125986",
+        "samplerate": "44100",
+        "bitdepth": "16",
+        "midi": {
+            "filename": "5070097.mid",
+            "tempo": 230,
+            "hash": "146dc881655a7c5698d60a918ad36207"
+        },
+        "tempo": "230",
+        "plugin": {
+            "name": "Ariston_V",
+            "version": "1.0.0.0",
+            "parameters": {
+                "Enable/Disable Full Range": 0.0
+            }
+        }
+    },
+    "d99359cf252ee9d99f323e8634939495": {
+        "filename": "5070098.wav",
+        "created": "2022-08-11 11:18:45.907859",
+        "samplerate": "44100",
+        "bitdepth": "16",
+        "midi": {
+            "filename": "5070098.mid",
+            "tempo": 230,
+            "hash": "d99359cf252ee9d99f323e8634939495"
+        },
+        "tempo": "230",
+        "plugin": {
+            "name": "Ariston_V",
+            "version": "1.0.0.0",
+            "parameters": {
+                "Enable/Disable Full Range": 0.0
+            }
+        }
+    },
+    "b72263eab11cfdc4137d3b8c799ea933": {
+        "filename": "5070100.wav",
+        "created": "2022-08-11 11:18:46.057862",
+        "samplerate": "44100",
+        "bitdepth": "16",
+        "midi": {
+            "filename": "5070100.mid",
+            "tempo": 230,
+            "hash": "b72263eab11cfdc4137d3b8c799ea933"
+        },
+        "tempo": "230",
+        "plugin": {
+            "name": "Ariston_V",
+            "version": "1.0.0.0",
+            "parameters": {
+                "Enable/Disable Full Range": 0.0
+            }
+        }
+    },
+    "6fa4458ad05b3c2e427b6488081a662a": {
+        "filename": "5070101.wav",
+        "created": "2022-08-11 11:18:46.224862",
+        "samplerate": "44100",
+        "bitdepth": "16",
+        "midi": {
+            "filename": "5070101.mid",
+            "tempo": 230,
+            "hash": "6fa4458ad05b3c2e427b6488081a662a"
+        },
+        "tempo": "230",
+        "plugin": {
+            "name": "Ariston_V",
+            "version": "1.0.0.0",
+            "parameters": {
+                "Enable/Disable Full Range": 0.0
+            }
+        }
+    },
+    "1531a0a021c0fe1e2083a30476708e2c": {
+        "filename": "5070141.wav",
+        "created": "2022-08-11 11:18:46.363430",
+        "samplerate": "44100",
+        "bitdepth": "16",
+        "midi": {
+            "filename": "5070141.mid",
+            "tempo": 230,
+            "hash": "1531a0a021c0fe1e2083a30476708e2c"
+        },
+        "tempo": "230",
+        "plugin": {
+            "name": "Ariston_V",
+            "version": "1.0.0.0",
+            "parameters": {
+                "Enable/Disable Full Range": 0.0
+            }
+        }
+    },
+    "b567f7de18c48378eaa5420e22e4a6ba": {
+        "filename": "5070098.wav",
+        "created": "2022-08-11 12:42:28.519698",
+        "samplerate": "44100",
+        "bitdepth": "16",
+        "midi": {
+            "filename": "5070098.mid",
+            "tempo": 230,
+            "hash": "b567f7de18c48378eaa5420e22e4a6ba"
+        },
+        "tempo": "230",
+        "plugin": {
+            "name": "VirtualSilbermann",
+            "version": "0.0.1.0",
+            "parameters": {
+                "Gedackt 8": 1.0,
+                "Octav 2": 0.0,
+                "Prinzipal 4": 1.0,
+                "Quinte 1 1 3": 0.0,
+                "Zimbel": 0.0,
+                "Volume": 0.5,
+                "Tutti": 0.0
+            }
+        }
+    },
+    "1cbe0bb05b1dc7390879bf54507e50ed": {
+        "filename": "5070100.wav",
+        "created": "2022-08-11 12:42:29.007732",
+        "samplerate": "44100",
+        "bitdepth": "16",
+        "midi": {
+            "filename": "5070100.mid",
+            "tempo": 230,
+            "hash": "1cbe0bb05b1dc7390879bf54507e50ed"
+        },
+        "tempo": "230",
+        "plugin": {
+            "name": "VirtualSilbermann",
+            "version": "0.0.1.0",
+            "parameters": {
+                "Gedackt 8": 1.0,
+                "Octav 2": 0.0,
+                "Prinzipal 4": 1.0,
+                "Quinte 1 1 3": 0.0,
+                "Zimbel": 0.0,
+                "Volume": 0.5,
+                "Tutti": 0.0
+            }
+        }
+    },
+    "16cd4218084da31afc56ebb8fb9beed1": {
+        "filename": "5070101.wav",
+        "created": "2022-08-11 12:42:29.528766",
+        "samplerate": "44100",
+        "bitdepth": "16",
+        "midi": {
+            "filename": "5070101.mid",
+            "tempo": 230,
+            "hash": "16cd4218084da31afc56ebb8fb9beed1"
+        },
+        "tempo": "230",
+        "plugin": {
+            "name": "VirtualSilbermann",
+            "version": "0.0.1.0",
+            "parameters": {
+                "Gedackt 8": 1.0,
+                "Octav 2": 0.0,
+                "Prinzipal 4": 1.0,
+                "Quinte 1 1 3": 0.0,
+                "Zimbel": 0.0,
+                "Volume": 0.5,
+                "Tutti": 0.0
+            }
+        }
+    },
+    "e64352f9ff6aa3ae18ce05108e8ae2d2": {
+        "filename": "5070141.wav",
+        "created": "2022-08-11 12:42:29.961816",
+        "samplerate": "44100",
+        "bitdepth": "16",
+        "midi": {
+            "filename": "5070141.mid",
+            "tempo": 230,
+            "hash": "e64352f9ff6aa3ae18ce05108e8ae2d2"
+        },
+        "tempo": "230",
+        "plugin": {
+            "name": "VirtualSilbermann",
+            "version": "0.0.1.0",
+            "parameters": {
+                "Gedackt 8": 1.0,
+                "Octav 2": 0.0,
+                "Prinzipal 4": 1.0,
+                "Quinte 1 1 3": 0.0,
+                "Zimbel": 0.0,
+                "Volume": 0.5,
+                "Tutti": 0.0
+            }
+        }
+    },
+    "d78f6d099e9854354f6ddfbefaa32db6": {
+        "filename": "5070143.wav",
+        "created": "2022-08-11 12:42:30.387089",
+        "samplerate": "44100",
+        "bitdepth": "16",
+        "midi": {
+            "filename": "5070143.mid",
+            "tempo": 230,
+            "hash": "d78f6d099e9854354f6ddfbefaa32db6"
+        },
+        "tempo": "230",
+        "plugin": {
+            "name": "VirtualSilbermann",
+            "version": "0.0.1.0",
+            "parameters": {
+                "Gedackt 8": 1.0,
+                "Octav 2": 0.0,
+                "Prinzipal 4": 1.0,
+                "Quinte 1 1 3": 0.0,
+                "Zimbel": 0.0,
+                "Volume": 0.5,
+                "Tutti": 0.0
+            }
+        }
+    },
+    "278d30dfbf432ed0fd09ba2c797d8aea": {
+        "filename": "5070144.wav",
+        "created": "2022-08-11 12:42:30.803093",
+        "samplerate": "44100",
+        "bitdepth": "16",
+        "midi": {
+            "filename": "5070144.mid",
+            "tempo": 230,
+            "hash": "278d30dfbf432ed0fd09ba2c797d8aea"
+        },
+        "tempo": "230",
+        "plugin": {
+            "name": "VirtualSilbermann",
+            "version": "0.0.1.0",
+            "parameters": {
+                "Gedackt 8": 1.0,
+                "Octav 2": 0.0,
+                "Prinzipal 4": 1.0,
+                "Quinte 1 1 3": 0.0,
+                "Zimbel": 0.0,
+                "Volume": 0.5,
+                "Tutti": 0.0
+            }
+        }
+    },
+    "b2cfecfae620de75ddc9e934bb176a8c": {
+        "filename": "5070145.wav",
+        "created": "2022-08-11 12:42:31.222137",
+        "samplerate": "44100",
+        "bitdepth": "16",
+        "midi": {
+            "filename": "5070145.mid",
+            "tempo": 230,
+            "hash": "b2cfecfae620de75ddc9e934bb176a8c"
+        },
+        "tempo": "230",
+        "plugin": {
+            "name": "VirtualSilbermann",
+            "version": "0.0.1.0",
+            "parameters": {
+                "Gedackt 8": 1.0,
+                "Octav 2": 0.0,
+                "Prinzipal 4": 1.0,
+                "Quinte 1 1 3": 0.0,
+                "Zimbel": 0.0,
+                "Volume": 0.5,
+                "Tutti": 0.0
+            }
+        }
+    },
+    "12a56fef60322bbf2c8754354783212a": {
+        "filename": "5070146.wav",
+        "created": "2022-08-11 12:42:31.657168",
+        "samplerate": "44100",
+        "bitdepth": "16",
+        "midi": {
+            "filename": "5070146.mid",
+            "tempo": 230,
+            "hash": "12a56fef60322bbf2c8754354783212a"
+        },
+        "tempo": "230",
+        "plugin": {
+            "name": "VirtualSilbermann",
+            "version": "0.0.1.0",
+            "parameters": {
+                "Gedackt 8": 1.0,
+                "Octav 2": 0.0,
+                "Prinzipal 4": 1.0,
+                "Quinte 1 1 3": 0.0,
+                "Zimbel": 0.0,
+                "Volume": 0.5,
+                "Tutti": 0.0
+            }
+        }
+    },
+    "0804645fff9832f6a198f762f75ebc15": {
+        "filename": "5070148.wav",
+        "created": "2022-08-11 12:42:31.919145",
+        "samplerate": "44100",
+        "bitdepth": "16",
+        "midi": {
+            "filename": "5070148.mid",
+            "tempo": 230,
+            "hash": "0804645fff9832f6a198f762f75ebc15"
+        },
+        "tempo": "230",
+        "plugin": {
+            "name": "VirtualSilbermann",
+            "version": "0.0.1.0",
+            "parameters": {
+                "Gedackt 8": 1.0,
+                "Octav 2": 0.0,
+                "Prinzipal 4": 1.0,
+                "Quinte 1 1 3": 0.0,
+                "Zimbel": 0.0,
+                "Volume": 0.5,
+                "Tutti": 0.0
+            }
+        }
+    },
+    "2544cab70656d7930964fc730457677b": {
+        "filename": "5070149.wav",
+        "created": "2022-08-11 12:42:32.402163",
+        "samplerate": "44100",
+        "bitdepth": "16",
+        "midi": {
+            "filename": "5070149.mid",
+            "tempo": 230,
+            "hash": "2544cab70656d7930964fc730457677b"
+        },
+        "tempo": "230",
+        "plugin": {
+            "name": "VirtualSilbermann",
+            "version": "0.0.1.0",
+            "parameters": {
+                "Gedackt 8": 1.0,
+                "Octav 2": 0.0,
+                "Prinzipal 4": 1.0,
+                "Quinte 1 1 3": 0.0,
+                "Zimbel": 0.0,
+                "Volume": 0.5,
+                "Tutti": 0.0
+            }
+        }
+    },
+    "2b029ccf55e5c7658dc58092638ca79f": {
+        "filename": "5070150.wav",
+        "created": "2022-08-11 12:42:32.846779",
+        "samplerate": "44100",
+        "bitdepth": "16",
+        "midi": {
+            "filename": "5070150.mid",
+            "tempo": 230,
+            "hash": "2b029ccf55e5c7658dc58092638ca79f"
+        },
+        "tempo": "230",
+        "plugin": {
+            "name": "VirtualSilbermann",
+            "version": "0.0.1.0",
+            "parameters": {
+                "Gedackt 8": 1.0,
+                "Octav 2": 0.0,
+                "Prinzipal 4": 1.0,
+                "Quinte 1 1 3": 0.0,
+                "Zimbel": 0.0,
+                "Volume": 0.5,
+                "Tutti": 0.0
+            }
+        }
+    },
+    "c4423b16cec6d6df863cf607d21f2fce": {
+        "filename": "5070151.wav",
+        "created": "2022-08-11 12:42:33.274829",
+        "samplerate": "44100",
+        "bitdepth": "16",
+        "midi": {
+            "filename": "5070151.mid",
+            "tempo": 230,
+            "hash": "c4423b16cec6d6df863cf607d21f2fce"
+        },
+        "tempo": "230",
+        "plugin": {
+            "name": "VirtualSilbermann",
+            "version": "0.0.1.0",
+            "parameters": {
+                "Gedackt 8": 1.0,
+                "Octav 2": 0.0,
+                "Prinzipal 4": 1.0,
+                "Quinte 1 1 3": 0.0,
+                "Zimbel": 0.0,
+                "Volume": 0.5,
+                "Tutti": 0.0
+            }
+        }
+    },
+    "289a509b462dafd1fe1c20c6efdc16f8": {
+        "filename": "5070153.wav",
+        "created": "2022-08-11 12:42:33.686779",
+        "samplerate": "44100",
+        "bitdepth": "16",
+        "midi": {
+            "filename": "5070153.mid",
+            "tempo": 230,
+            "hash": "289a509b462dafd1fe1c20c6efdc16f8"
+        },
+        "tempo": "230",
+        "plugin": {
+            "name": "VirtualSilbermann",
+            "version": "0.0.1.0",
+            "parameters": {
+                "Gedackt 8": 1.0,
+                "Octav 2": 0.0,
+                "Prinzipal 4": 1.0,
+                "Quinte 1 1 3": 0.0,
+                "Zimbel": 0.0,
+                "Volume": 0.5,
+                "Tutti": 0.0
+            }
+        }
+    },
+    "1a67339a0cc2236ad3455d14918635d3": {
+        "filename": "5070097.wav",
+        "created": "2022-08-11 12:44:30.895240",
+        "samplerate": "44100",
+        "bitdepth": "16",
+        "midi": {
+            "filename": "5070097.mid",
+            "tempo": 230,
+            "hash": "1a67339a0cc2236ad3455d14918635d3"
+        },
+        "tempo": "230",
+        "plugin": {
+            "name": "HISE_Pertici x64",
+            "version": "1.0.0.0",
+            "parameters": {
+                "8' und 4' Register (gekoppelt)": 1.0,
+                "8' Register": 0.0,
+                "4' Register": 0.0,
+                "4' Register - Manual 1": 0.0,
+                "4' Register - Manual 2": 0.0,
+                "Lautenzug": 0.0,
+                "Anschlagsdynamik": 1.0,
+                "Stimmung": 1.0,
+                "Volume": 0.5
+            }
+        }
+    }
+}
