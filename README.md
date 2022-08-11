@@ -1,5 +1,5 @@
 # midiAuralizer
- This GUI allows to easily render MIDI- to Audiofiles through VST-Instruments and was developed for the Projects <a href="https://organology.uni-leipzig.de/" target="_blank">DISKOS (BMBF)</a> and <a href="https://modavis.org/" target="_blank">MODAVIS (PhD)</a>.
+ This GUI allows to easily render MIDI- to Audiofiles through VST-Instruments and was developed for the Projects [DISKOS BMBF]("https://organology.uni-leipzig.de/"{:target="\_blank"} and [MODAVIS (PhD)]("https://modavis.org/"){:target="\_blank"}</a>.
  All parameters that have been set in the Instrument can be traced in a Protocol (JSON), including Hashcodes for every Audio- and MIDI-File to identify them for further management and processing. <br />
  <sub>Note: VST-Instruments only work on Windows, Support for Mac OS & Linux will be added soon (including Audio Units and SoundFonts)!</sub>
 
