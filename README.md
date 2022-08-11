@@ -12,8 +12,9 @@
  - Hashcode Checker: View Auralization Parameters for every generated Audiofile
 
 ### Upcoming Changes
+ - Loading-Screen for App-Initialization and Instrument-Changes
  - Optimize State-Handling Operations
- - View & Export filtered Protocol
+ - View & Export filtered Protocols
  - Progressbar for Batch Processing
  - Commandline-Version
  - Extend Support to Mac OS (Audio Units: .au) and SoundFonts (.sfz, .sf2)
