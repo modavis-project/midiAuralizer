@@ -8,7 +8,7 @@
 </p>
 
 ### Features
- - Easy to Use: Simple GUI, no programming or digital audio knowledge needed
+ - Easy to Use: Simple GUI, no knowledge about Python or Digital Audio needed
  - Drag & Drop your MIDI-Files, choose your Instrument and click on Auralize !
  - Automatic Protocol: Instrument Parameters, Identifier & Hashcodes
  - Hashcode Checker: View Auralization Parameters for every generated Audiofile
@@ -18,5 +18,6 @@
  - Optimize State-Handling Operations
  - View & Export filtered Protocols
  - Progressbar for Batch Processing
+ - Design Optimizations
  - Commandline-Version
  - Extend Support to Mac OS (Audio Units: .au) and SoundFonts (.sfz, .sf2)
