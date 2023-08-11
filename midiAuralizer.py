@@ -153,9 +153,10 @@ class Main(QMainWindow):
         self.layout = QGridLayout(self.centralWidget)
         
         self.list_instruments = []
-        for i in os.listdir(VST_PATH):
-            if i[-4:] == '.dll':
-                self.list_instruments.append(i[:-4])
+        if os.path.exists(VST_PATH):
+            for i in os.listdir(VST_PATH):
+                if i[-4:] == '.dll':
+                    self.list_instruments.append(i[:-4])
         
         self.midifiles = []
         self.img_dragMidi = QLabel(self)
