@@ -27,6 +27,7 @@ import hashlib
 from win32api import GetFileVersionInfo, LOWORD, HIWORD
 import dawdreamer as daw
 from scipy.io import wavfile
+import numpy as np
 
 win_x = 300
 win_y = 300
@@ -45,6 +46,9 @@ json_protocol = json.load(open(PROTOCOL_PATH, encoding='UTF-8'))
 VST_PATH = json_settings['pathSettings']['vstpath']
 OUT_PATH = json_settings['pathSettings']['outpath']
 STATES_PATH = json_settings['pathSettings']['statespath']
+
+CHANNELS = 2
+BITDEPTH = 16
 
 def jsonDump(json_target): # dumps data into target .json-File
     if json_target == "settings": 
@@ -89,7 +93,7 @@ RESOURCES = [f"{cwd}\\images\\bgImage.png", f"{cwd}\\images\\MIDI_Drag.png", f"{
              ICON_PATH, SETTINGS_PATH, PROTOCOL_PATH]
 
 SAMPLERATE = int(json_settings['audioSettings']['samplerate'])
-tempo = 230
+tempo = 240
 BIT_DEPTH = int(json_settings['audioSettings']['bitdepth'])
 CHUNKSIZE = int(json_settings['audioSettings']['chunksize'])
 LOAD_STATE = bool(json_settings['audioSettings']['loadstate'])
@@ -450,11 +454,36 @@ class Main(QMainWindow):
         else:
             self.printStatus(f"Auralization on {instrument} probably failed, please check the Output-Files.")
         
-    def renderAudio(self, engine, file_path, duration): # renders Audio to .wav
-    	assert(self.engine.render(duration))
-    	audio_output = self.engine.get_audio()
-    	if file_path is not None:
-    		wavfile.write(file_path, SAMPLERATE, audio_output.transpose())
+    def renderAudio(self, engine, file_path, duration):
+        assert(self.engine.render(duration))
+        audio_output = self.engine.get_audio()
+
+        # Handle channel configuration
+        if audio_output.shape[0] != CHANNELS:
+            if CHANNELS == 2 and audio_output.shape[0] > 2:
+                # If stereo is required, select the first two channels
+                audio_output = audio_output[:2, :]
+            elif CHANNELS == 1:
+                # If mono is required, mix down the channels
+                audio_output = np.mean(audio_output, axis=0, keepdims=True)
+            else:
+                raise ValueError("Unsupported channel configuration. Available channels: {}".format(audio_output.shape[0]))
+
+        # Determine the maximum value for the given bit depth
+        max_val = 2**(BITDEPTH - 1) - 1
+
+        # Scale and convert the audio output to the desired bit depth
+        if BITDEPTH == 16:
+            audio_output = (audio_output * max_val).astype(np.int16)
+        elif BITDEPTH == 24:
+            audio_output = (audio_output * max_val).astype(np.int32)  # 24-bit audio is typically stored in 32-bit containers
+        elif BITDEPTH == 32:
+            audio_output = (audio_output * max_val).astype(np.int32)  # assuming 32-bit integer
+        else:
+            raise ValueError("Unsupported bit depth: {}".format(BITDEPTH))
+
+        if file_path is not None:
+            wavfile.write(file_path, SAMPLERATE, audio_output.transpose())
             
     def getPluginParameters(self): # returns plugin parameters
         params_length = self.synth.get_plugin_parameter_size()
