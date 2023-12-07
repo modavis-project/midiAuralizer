@@ -121,7 +121,7 @@ def zip_for_import():
                     # Add the file to the zip, maintaining its directory structure
                     zipf.write(filepath, arcname)
 
-    print(f"Archiving complete, it can be found at {zip_path}")
+    print(f"Archiving complete, the resulting .zip can be found at {zip_path}")
 
 if __name__ == "__main__":
     rename_files()
