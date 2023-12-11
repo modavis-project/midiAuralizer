@@ -13,6 +13,7 @@ from pydub import AudioSegment
 import zipfile
 
 PROCESSING_DIR = 'C:/Users/Dominik/Desktop/GitProjects/midiAuralizer/output'
+zip_filename = "IMPORT_midiExp4.zip"
 
 def rename_files():
     # Load the Excel file
@@ -102,7 +103,6 @@ def move_into_directories():
 
 def zip_for_import():
     # Path to the output zip file
-    zip_filename = "IMPORT_phonola_solodant.zip"
     zip_path = os.path.join(PROCESSING_DIR, zip_filename)
 
     print(f"Step 4: Creating .zip-Archive for musiXplora Import...")

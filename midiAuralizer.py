@@ -93,7 +93,7 @@ RESOURCES = [f"{cwd}\\images\\bgImage.png", f"{cwd}\\images\\MIDI_Drag.png", f"{
              ICON_PATH, SETTINGS_PATH, PROTOCOL_PATH]
 
 SAMPLERATE = int(json_settings['audioSettings']['samplerate'])
-tempo = 240
+tempo = 390 # default for DISKOS
 BIT_DEPTH = int(json_settings['audioSettings']['bitdepth'])
 CHUNKSIZE = int(json_settings['audioSettings']['chunksize'])
 LOAD_STATE = bool(json_settings['audioSettings']['loadstate'])
